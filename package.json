@@ -1,5 +1,5 @@
 {
-    "name": "@elizaos/plugin-mind-network",
+    "name": "@elizaos-plugins/plugin-mind-network",
     "version": "0.1.9",
     "type": "module",
     "main": "dist/index.js",
@@ -19,7 +19,6 @@
         "dist"
     ],
     "dependencies": {
-        "@elizaos/core": "workspace:*",
         "mind-randgen-sdk": "^1.0.0"
     },
     "scripts": {
