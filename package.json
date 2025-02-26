@@ -26,5 +26,22 @@
     },
     "peerDependencies": {
         "whatwg-url": "7.1.0"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "MIND_HOT_WALLET_PRIVATE_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Hot wallet private key to vote",
+                "optional": false
+            },
+            "MIND_COLD_WALLET_ADDRESS": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Cold wallet address to receive rewards",
+                "optional": false
+            }
+        }
     }
 }
